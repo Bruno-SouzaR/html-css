@@ -1,0 +1,117 @@
+@charset "UFT-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(74, 245, 74, 0.384);
+    margin: auto;
+}
+header {
+    background-image: linear-gradient(to bottom, #2A9559, #3CDC83);
+    background-attachment: fixed;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.318);
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'idroid' , arial, sans-serif;
+    font-size: 2em;
+    color: #397453;
+    margin: 15px;
+}
+
+h2 {
+    font-family: 'idroid' , arial, sans-serif;
+    background-image: linear-gradient(to right, #3cdc8442, rgba(0, 128, 0, 0.024));
+    color: #397453;
+    margin: 10px;
+}
+
+h1#principal {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+h2#principal {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    background-image: none;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(231, 231, 231);
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+nav {
+    background-color: transparent;
+    padding: 3px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    
+    
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 17%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.318);
+}
+
+article {
+    background-color: white;
+    padding: 5px;
+}
+
+article > aside {
+    text-align: center;
+}
+
+span {
+    color: #3CDC83;
+}
+img {
+    width: 100%;
+    
+}
+img#pequena {
+    width: auto;
+}
+
+footer {
+    background-color: #397453;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+footer > p {
+    text-align: center;
+}
